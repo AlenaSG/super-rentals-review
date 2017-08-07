@@ -1,0 +1,5 @@
+{ "announcements": [{
+    "topic": "Weather",
+    "message": "It's going to rain today.",
+  }]
+}
