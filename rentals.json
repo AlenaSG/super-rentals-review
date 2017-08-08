@@ -20,5 +20,14 @@
   "announcements": [{
     "topic": "Weather",
     "message": "It's going to rain today."
+  }],
+  "reviews": [{
+    "author": "Alena",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Sowmya",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
   }]
 }

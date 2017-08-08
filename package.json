@@ -43,5 +43,13 @@
   },
   "private": true,
   "main": ".eslintrc.js",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SowmyaLogaswamy/Super-rentals-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SowmyaLogaswamy/Super-rentals-js/issues"
+  },
+  "homepage": "https://github.com/SowmyaLogaswamy/Super-rentals-js#readme"
 }

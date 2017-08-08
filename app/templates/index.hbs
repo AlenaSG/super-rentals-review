@@ -7,16 +7,23 @@ We hope you find exactly what you're looking for in a place to stay.
     {{rental-tile rental=rental}}
   {{/each}}
 </ul>
+{{new-rental saveRental2="saveRental3"}}
 
+<h2>Announcements</h2>
 <ul>
   {{#each model.announcements as |announcement|}}
     {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
   {{/each}}
 </ul>
-
-{{new-rental saveRental2="saveRental3"}}
-
 {{new-announcement saveAnnouncement2="saveAnnouncement3"}}
+
+<h2>All Reviews</h2>
+<ul>
+  {{#each model.reviews as |review|}}
+    <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
+  {{/each}}
+</ul>
+  
 
 {{#link-to 'index'}}Home |{{/link-to}}
 {{#link-to 'about'}}About |{{/link-to}}
