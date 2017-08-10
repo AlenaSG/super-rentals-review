@@ -1,8 +1,8 @@
-<li>
+<li class="list-group-item">
   {{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}} in {{rental.city}} {{/link-to}}
   {{#if isImageShowing}}
-  <p><img src={{rental.image}} alt={{rental.type}} {{action 'imageHide'}}></p>
+  <p><img class="img-thumbnal" src={{rental.image}} alt={{rental.type}} {{action 'imageHide'}} width="400px"></p>
   {{else}}
-    <button {{action 'imageShow'}}>Show image</button>
+    <button class="button btn-info pull-right"{{action 'imageShow'}}>Show image</button>
   {{/if}}
 </li>
